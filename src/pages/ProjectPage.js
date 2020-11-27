@@ -29,7 +29,7 @@ function ProjectPage(props) {
                             I built a website for my fantasy football league in order to teach myself Python's Flask.
                             Use guest@gmail.com and the password, 'pwd' to login and explore.
                     </Card.Text>
-                        <Card.Link to='/projects/fflwebsite'>Full write up on the project</Card.Link>
+                        <Card.Link href='/ryanfoshage/projects/fflwebsite'>Full write up on the project</Card.Link>
                     </Card.Body>
                     <Button variant="primary" href='https://bxbfolio.azurewebsites.net/' target="_blank">Go To the Site</Button>
                 </Card>
@@ -42,7 +42,7 @@ function ProjectPage(props) {
                         <Card.Text>
                             Built out a set of scripts to pull data from the ESPN Fantasy Football APIs to collect lifetime league metrics.
                     </Card.Text>
-                        <Card.Link href='/projects/espnapi'>Full write up on the project</Card.Link>
+                        <Card.Link href='/ryanfoshage/projects/espnapi'>Full write up on the project</Card.Link>
                     </Card.Body>
                 </Card>
 
@@ -54,7 +54,7 @@ function ProjectPage(props) {
                         <Card.Text>
                             I wanted to start learning JavaScript and wanted to create a personal portfolio, thus this site.
                     </Card.Text>
-                        <Card.Link href='/projects/thissite'>Full write up on the project</Card.Link>
+                        <Card.Link href='/ryanfoshage/projects/thissite'>Full write up on the project</Card.Link>
                     </Card.Body>
                 </Card>
             </CardDeck>

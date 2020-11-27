@@ -54,10 +54,10 @@ class App extends React.Component {
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/projects">Projects</Link>
-                <Link className="nav-link" to="/blog">Blog</Link>
-                <Link className="nav-link" to="/resume">Resume</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/ryanfoshage/projects">Projects</Link>
+                <Link className="nav-link" to="/ryanfoshage/blog">Blog</Link>
+                <Link className="nav-link" to="/ryanfoshage/resume">Resume</Link>
+                <Link className="nav-link" to="/ryanfoshage/contact">Contact</Link>
                 <NavLink href="https://github.com/RFOSHA" target="_blank">
                   <img src={github_logo}
                     width="25"
@@ -75,15 +75,15 @@ class App extends React.Component {
           </Navbar>
 
           <Route path="/ryanfoshage" exact render={() => <HomePage />} />
-          <Route path="/projects" exact render={() => <ProjectPage />} />
-          <Route path="/projects/fflwebsite" exact render={() => <FFLWebsitePage />} />
-          <Route path="/projects/espnapi" exact render={() => <ESPNAPIPage />} />
-          <Route path="/projects/yahoofinanceoptions" exact render={() => <YahooFinanceOptionsPage />} />
-          <Route path="/projects/thissite" exact render={() => <ThisSitePage />} />
-          <Route path="/blog" exact render={() => <BlogPage />} />
-          <Route path="/blog/bathremodel" exact render={() => <BathRemodel />} />
-          <Route path="/resume" exact render={() => <ResumePage />} />
-          <Route path="/contact" exact render={() => <ContactPage />} />
+          <Route path="/ryanfoshage/projects" exact render={() => <ProjectPage />} />
+          <Route path="/ryanfoshage/projects/fflwebsite" exact render={() => <FFLWebsitePage />} />
+          <Route path="/ryanfoshage/projects/espnapi" exact render={() => <ESPNAPIPage />} />
+          <Route path="/ryanfoshage/projects/yahoofinanceoptions" exact render={() => <YahooFinanceOptionsPage />} />
+          <Route path="/ryanfoshage/projects/thissite" exact render={() => <ThisSitePage />} />
+          <Route path="/ryanfoshage/blog" exact render={() => <BlogPage />} />
+          <Route path="/ryanfoshage/blog/bathremodel" exact render={() => <BathRemodel />} />
+          <Route path="/ryanfoshage/resume" exact render={() => <ResumePage />} />
+          <Route path="/ryanfoshage/contact" exact render={() => <ContactPage />} />
 
           <Footer />
 

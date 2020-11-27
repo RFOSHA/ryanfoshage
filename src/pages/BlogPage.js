@@ -26,7 +26,7 @@ function ProjectPage(props) {
                         <Card.Text>
                             My buddy roped me into helping him remodel his bathroom over a weekend.
                     </Card.Text>
-                        <Card.Link href='/blog/bathremodel'>Full write up on the project</Card.Link>
+                        <Card.Link href='/ryanfoshage/blog/bathremodel'>Full write up on the project</Card.Link>
                     </Card.Body>
                 </Card>
 
