@@ -29,7 +29,7 @@ function ProjectPage(props) {
                             I built a website for my fantasy football league in order to teach myself Python's Flask.
                             Use guest@gmail.com and the password, 'pwd' to login and explore.
                     </Card.Text>
-                        <Card.Link href='/projects/fflwebsite'>Full write up on the project</Card.Link>
+                        <Card.Link to='/projects/fflwebsite'>Full write up on the project</Card.Link>
                     </Card.Body>
                     <Button variant="primary" href='https://bxbfolio.azurewebsites.net/' target="_blank">Go To the Site</Button>
                 </Card>
