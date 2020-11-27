@@ -1,0 +1,92 @@
+.jumbotron-ryan {
+    background-image: url('../assets/images/homepage.jpg');
+    background-color: #2042a0 !important;
+    /* background-color: #363636fd !important; */
+    margin: 0px !important;
+}
+
+.jumbotron-clear {
+    background-color: #ffffff00 !important;
+    margin: 0px !important;
+}
+
+.jumbotron-about {
+    background-color: #2042a0 !important;
+    /* background-color: #363636fd !important; */
+    margin: 0px !important;
+}
+
+.carousel_caption_homepage{
+    /* text-align: left !important;
+    align-content: flex-start !important; */
+    position: absolute !important;
+    z-index: 100 !important;
+}
+
+.homepage_pc1{
+    /* background-color: #14415c !important; */
+    text-align: center !important;
+    vertical-align: middle !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    /* font-family: 'Titillium Web', sans-serif !important; */
+    /* font-weight: 900 !important; */
+    justify-content: left !important;
+
+}
+
+.img_homepage{
+    padding: 0px !important;
+    justify-content: right !important;
+}
+
+.row_no_pad{
+    padding: 0px !important;
+    background-color: #2042a0 !important;
+    /* background-color: #063653 !important; */
+    justify-content: center !important;
+}
+
+.homepage_h1{
+    font-size: 70px !important;
+    color: #f7f7f7 !important;
+    text-align: left !important;
+    padding-left: 20px !important;
+    padding-bottom: 20px !important;
+    margin: 0px !important;
+
+}
+
+.homepage_h2{
+    font-size: 40px !important;
+    color: #e9ac94 !important;
+    text-align: left !important;
+    padding-left: 20px !important;
+    margin: 0px !important;
+    padding-top: 140px !important;
+}
+
+.homepage_h3{
+    font-size: 20px !important;
+    font-weight: 100 !important;
+    color: #f7f7f7 !important;
+    text-align: left !important;
+    padding-left: 20px !important;
+    margin: 0px !important;
+    padding-bottom: 140px !important;
+    
+}
+
+.jumbo_homepage{
+    text-align: center !important;
+    font-weight: 100 !important;
+    font-size: 60px !important;
+}
+
+/* .carousel_homepage{
+    background-image: url('../assets/images/homepage.jpg');
+} */
+
+ /* background-image: url('../assets/images/homepage_jumbotron.jpg'); */
+ /* background-image: url('../assets/images/bxboys.PNG');*/
+
