@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import NavbarBrand from 'react-bootstrap/esm/NavbarBrand';
@@ -74,6 +74,7 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
 
+<Switch>
           <Route path="/ryanfoshage" exact render={() => <HomePage />} />
           <Route path="/ryanfoshage/projects" exact render={() => <ProjectPage />} />
           <Route path="/ryanfoshage/projects/fflwebsite" exact render={() => <FFLWebsitePage />} />
@@ -84,7 +85,7 @@ class App extends React.Component {
           <Route path="/ryanfoshage/blog/bathremodel" exact render={() => <BathRemodel />} />
           <Route path="/ryanfoshage/resume" exact render={() => <ResumePage />} />
           <Route path="/ryanfoshage/contact" exact render={() => <ContactPage />} />
-
+          </Switch>
           <Footer />
 
         </Container>

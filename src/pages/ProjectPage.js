@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../components/Hero';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 // import Carousel from '../components/Carousel';
 import Content from '../components/Content';
 import { Jumbotron, Container, Carousel, Button, Card, CardGroup, CardColumns, CardDeck } from 'react-bootstrap';
@@ -29,7 +30,8 @@ function ProjectPage(props) {
                             I built a website for my fantasy football league in order to teach myself Python's Flask.
                             Use guest@gmail.com and the password, 'pwd' to login and explore.
                     </Card.Text>
-                        <Card.Link href='https://rfosha.github.io/ryanfoshage/projects/fflwebsite'>Full write up on the project</Card.Link>
+                        {/* <Card.Link href='/ryanfoshage/projects/fflwebsite'>Full write up on the project</Card.Link> */}
+                        <Link className="nav-link" to="/ryanfoshage/projects/fflwebsite">Full write up on project</Link>
                     </Card.Body>
                     <Button variant="primary" href='https://bxbfolio.azurewebsites.net/' target="_blank">Go To the Site</Button>
                 </Card>
